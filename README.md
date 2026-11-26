@@ -10,13 +10,13 @@ Standalone, static, bilingual privacy policy for **VELQITO Smart Budget**. This 
 
 1. Create a new **private** GitHub repository named `velqito-smart-budget-privacy-policy`.
 2. Add this directory as its source and push the `main` branch. Do not add the application project, signing directory, APK, AAB, customer backups, or QA evidence.
-3. In repository settings, enable GitHub Pages from branch `main` and folder `/site`.
+3. In repository settings, enable GitHub Pages from branch `main` and folder `/docs`.
 4. Review the page locally, then allow GitHub Pages to build the static branch deployment.
 5. Verify the resulting HTTPS address, expected to be `https://iso9090.github.io/VELQITO-Smart-Budget-Privacy-Policy/`, on desktop and mobile.
 6. Paste that exact HTTPS URL into Google Play Console's Privacy policy declaration only after the owner approves it.
 
-GitHub Pages publishes the `site/` folder only. The repository root contains the deployment instructions and is not part of the website output.
+GitHub Pages publishes the `docs/` folder only. The repository root contains the deployment instructions and is not part of the website output.
 
 ## Local review
 
-Open `site/index.html` in a browser. The page is static and has no build step.
+Open `docs/index.html` in a browser. The page is static and has no build step.
